@@ -8,9 +8,13 @@ Chrome extension that manipulates text
 
 - 
 
-## ☕BUY ME A COFFEE
+# Links
+- My Home page: https://www.vincenzodevivo.com/
+- My GitHub: https://github.com/deltavi
 
+
+# ☕BUY ME A COFFEE
 Want to buy me a coffee? By all means! Visit 
-https://www.buymeacoffee.com/vincenzodevivo
+https://www.buymeacoffee.com/vincenzodevivo or https://www.paypal.com/paypalme/VincenzoDeVivoAutore
 
 ## Screenshots
