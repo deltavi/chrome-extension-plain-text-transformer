@@ -142,6 +142,10 @@ addActionButton('CONSTANT_CASE', function (e) {
   addOutputLine(toConstantCase(inputTextArea.value));
 });
 
+addActionButton('As Is', function (e) {
+  addOutputLine(inputTextArea.value);
+});
+
 // ----
 
 function onTextAreaResize() {
