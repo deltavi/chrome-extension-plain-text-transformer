@@ -44,3 +44,6 @@ https://www.buymeacoffee.com/vincenzodevivo or https://www.paypal.com/paypalme/V
 ## Screenshots
 
 ![Plain Text Transformer Screenshot](doc/screenshot.png)
+
+## Dark Mode
+![Plain Text Transformer Dark Mode Screenshot](doc/screenshot-2.png)
