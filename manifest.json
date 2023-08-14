@@ -1,13 +1,10 @@
 {
   "name": "Plain Text Transformer",
-  "description": "Chrome extension that manipulates text",
+  "description": "Chrome extension that manipulates text (UPPER CASE, lower case, Title Case, camelCase, ...)",
   "version": "0.1",
   "permissions": [
     "activeTab", 
-    "scripting", 
-    "contextMenus",
-    "downloads",
-    "clipboardWrite"
+    "scripting"
   ],
   "icons": {
     "16": "ico/btn_circle_text_transformer.16x16.png",
@@ -24,7 +21,7 @@
   },
   
   "action": {
-    "default_title": "Show page plain text",
+    "default_title": "Plain Text Transformer",
     "default_icon": {
       "16": "ico/btn_circle_text_transformer.16x16.png",
       "20": "ico/btn_circle_text_transformer.20x20.png",

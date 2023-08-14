@@ -57,7 +57,7 @@ function addOutputLine(text) {
   o.innerText = text;
 
   let bd = document.createElement("button");
-  bd.innerText="Delete";
+  bd.innerText="Remove";
   bd.classList.add("out-btn");
   bd.onclick = function () {
     o.remove();
@@ -75,6 +75,10 @@ function addOutputLine(text) {
   output.prepend(o);
 }
 
+function getAllText(){
+  let v = inputTextArea.value.trim()
+  return v + '\n'+ "-".repeat(v.length) +'\n\n'+ output.innerText;
+}
 
 addOnClick('zoom-in', function () {
   zoomValue *= 1.1
@@ -89,15 +93,15 @@ addOnClick('zoom-out', function () {
 });
 
 addOnClick('copy', function (e) {
-  navigator.clipboard.writeText(inputTextArea.value)
+  navigator.clipboard.writeText(getAllText())
 });
 
-addOnClick('clean', function (e) {
+addOnClick('clear', function (e) {
   output.innerHTML = '';
 });
 
 addOnClick('download', function () {
-  downloadText(formatFileName(inputTextArea.value.trim()), inputTextArea.value);
+  downloadText(formatFileName(inputTextArea.value.trim()), getAllText());
 });
 
 // ----
@@ -140,6 +144,19 @@ addActionButton('kebab-case', function (e) {
 
 addActionButton('CONSTANT_CASE', function (e) {
   addOutputLine(toConstantCase(inputTextArea.value));
+});
+
+addActionButton('URI Encode', function (e) {
+  addOutputLine(encodeURIComponent(inputTextArea.value));
+});
+
+addActionButton('URI Decode', function (e) {
+  addOutputLine(decodeURIComponent(inputTextArea.value));
+});
+
+addActionButton('underline', function (e) {
+  let v= inputTextArea.value.trim()
+  addOutputLine(v + '\n' +'-'.repeat(v.length));
 });
 
 addActionButton('As Is', function (e) {
