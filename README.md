@@ -1,4 +1,4 @@
-# ![Plain Text Transformer Icon](ico/btn_circle_text_transformer.48x48.png) Chrome Extension - Plain Text Transformer 
+# ![Plain Text Transformer Icon](ico/btn_circle_text_transformer.24x24.png) Chrome Extension - Plain Text Transformer 
 
 Chrome extension that manipulates text (UPPER CASE, lower case, Title Case, camelCase, ...)
 
