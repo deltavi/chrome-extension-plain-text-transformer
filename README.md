@@ -29,6 +29,7 @@ Chrome extension that manipulates text (UPPER CASE, lower case, Title Case, came
 - Clear all results
 - Saving of all results in a text file
 - Text zoom
+- Dark Mode
 
 # Links
 - My Home page: https://www.vincenzodevivo.com/
